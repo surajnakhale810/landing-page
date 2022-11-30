@@ -1,0 +1,553 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    width: auto;
+    height: 87px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    /* justify-items: center; */
+    justify-content: space-between;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    
+}
+.header span{
+    font-family: sans-serif;
+    font-style: normal;
+    color: #fff;
+    padding-left: 38px;
+    font-size: 24px;
+}
+.navbar ul  {
+    display: flex;
+list-style: none; 
+margin-right: 38px; 
+ 
+}
+.navbar ul a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+   padding-right: 30px;
+    
+}
+/* */
+
+.row{
+    width: auto;
+    height: 600px;
+    color: #fff;
+    background-color: black;
+    /* border: 1px solid blue; */
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 100px;
+    font-weight: bold;
+    padding-left: 80px;
+    padding-top: 91px;
+    padding-bottom: 91px;
+    line-height: 130px;   
+}
+#business{
+    animation:fadein 2s;
+} 
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+} 
+#landing{
+    animation:fadein 2s;
+} 
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+} 
+#page{
+    animation:fadein 2s;
+} 
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+} 
+
+.image{
+    background-image: url("nathan-watson-iLl5XhMLn_U-unsplash.jpg");
+    width: 550px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 400px;
+    left: 650px;
+    border: 1px solid #fff;
+}
+.row2{
+    display: flex;
+    /* border: 1px solid black; */
+    height: 700px;
+}
+.col1{
+    width: 400px;
+    height: 500px;
+    background-image: url("vlad-patana-v6fzFt4pV_8-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 80px;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+#about{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+#about{
+    animation:fadein 2s;
+} 
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+} 
+.col2{
+    margin-top: 100px;
+    width: 700px;
+    height: 500px;
+ 
+}
+.row3{
+    height: 600px;
+    /* border: 1px solid green; */
+    
+}
+h1{
+    font-size: 50px;
+    padding-left: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+h1{
+    animation:fadein 2s;
+} 
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+} 
+.horiscroll{
+    width: auto;
+    height: 400px;
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 60% 60% 60%;
+    grid-column-gap: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    overflow-x: scroll;
+    
+}
+.col3{
+    width: 100%;
+    /* border: 1px solid greenyellow; */
+    padding: 10px 10px 0px 10px;
+}
+.col3:hover{
+    background-color: black;
+}
+.col4{
+    width: 100%;
+    /* border: 1px solid rgb(16, 18, 185); */
+    padding: 10px 10px 0px 10px;
+}
+.col4:hover{
+    background-color: black;
+}
+.col5{
+    width: 100%;
+    /* border: 1px solid rgb(196, 23, 158); */
+    padding: 10px 10px 0px 10px;
+}
+.col5:hover{
+    background-color: black;
+}
+.service1{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;   
+}
+.service1:hover{
+    color: #fff;
+}
+.col1service1{
+    line-height: 25px;
+}
+.col1service1:hover{
+    color: #fff;
+}
+.service2{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+.service2:hover{
+    color: #fff;
+}
+.col2service2{
+    line-height: 25px;
+}
+.col2service2:hover{
+    color: #fff;
+}
+.service3{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.service3:hover{
+    color: #fff;
+}
+.col3service3{
+    line-height: 25px;
+}
+.col3service3:hover{
+    color: #fff;
+}
+.row4{
+    width: auto;
+    height: 600px;
+    /* border: 1px solid black; */
+    background-color: black;
+}
+.maincontact{
+    width: auto;
+    height: 50px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+ #contact{
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+#contact{
+    animation:fadein 2s;
+} 
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+} 
+#fullname{
+    width: 800px;
+    height: 40px;
+   font-size: 15px; 
+   border: 1px solid #fff;
+   background-color: black;
+   margin: 60px 50px 20px 300px;
+   color: #fff;
+}
+#lastname{
+    width: 800px;
+    height: 40px;
+   font-size: 15px; 
+   border: 1px solid #fff;
+   background-color: black;
+   margin: 20px 50px 20px 300px;
+   color: #fff;
+}
+#emailaddress{
+    width: 800px;
+    height: 40px;
+   font-size: 15px; 
+   border: 1px solid #fff;
+   background-color: black;
+   margin: 20px 50px 20px 300px;
+   color: #fff;
+}
+#reason{
+    width: 800px;
+    height: 40px;
+   font-size: 15px; 
+   border: 1px solid #fff;
+   background-color: black;
+   margin: 20px 50px 20px 300px;
+   color: #fff;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: #fff;
+    color: black;
+    margin-left: 300px;
+}
+::placeholder{
+    color: #fff;
+}
+
+@media (width:320px){
+    .header{
+        width: 320px;
+        height: 40px;
+       
+        display: flex;
+        align-items: center;
+        
+        justify-content: space-between;
+        background-color: black;
+        position: sticky;
+        top: 0;
+        
+    }
+    .header span{
+        font-family: sans-serif;
+        font-style: normal;
+        color: #fff;
+        padding-left: 8px;
+        font-size: 8px;
+    }
+    .navbar ul  {
+        display: flex;
+    list-style: none; 
+    margin-right: 8px; 
+     
+    }
+    .navbar ul a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 8px;
+       padding-right: 18px;
+        
+    }
+    .row{
+        width: auto;
+        height: 300px;
+        color: #fff;
+        background-color: black;
+        font-family: sans-serif;
+        font-style: normal;
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        line-height: 40px;   
+    }  
+    .image{
+        background-image: url("nathan-watson-iLl5XhMLn_U-unsplash.jpg");
+        width: 265px;
+        height: 125px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 200px;
+        left: 32px;
+        border: 1px solid #fff;
+    }
+    .row2{
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid black; */
+        height: 1500px;
+    }
+    .col1{
+        width: 280px;
+        height: 300px;
+        background-image: url("vlad-patana-v6fzFt4pV_8-unsplash.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    #about{
+        font-size: 20px;
+        font-weight: bold;
+        padding-left: 10px;
+    
+    }
+    .col2{
+        margin-top: 50px;
+        width: 300px;
+        height: 300px;
+        padding-left: 15px;
+     
+    }
+    .row3{
+        height: 300px;
+        /* border: 1px solid green; */
+        
+    }
+    h1{
+        font-size: 20px;
+        padding-left: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .horiscroll{
+        width: 300;
+        height: 200px;
+        /* border: 1px solid blue; */
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 40% 40% 40%;
+        grid-column-gap: 10px;
+        padding-left: 20/px;
+        padding-right: 20px;
+        overflow-x: scroll;
+        
+    }
+  
+    .col3{
+        width: 100px;
+        /* border: 1px solid greenyellow; */
+        padding: 5px 5px 0px 5px;
+    }
+    .col4{
+        width: 100px;
+        /* border: 1px solid rgb(16, 18, 185); */
+        padding: 5px 5px 0px 5px;
+    }
+    .col5{
+        width: 100px;
+        /* border: 1px solid rgb(196, 23, 158); */
+        padding: 5px 5px 0px 5px;
+    }
+    .service1{
+        font-size: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+       
+    }
+    .col1service1{
+        line-height: 7px;
+        font-size: 7px;
+    }
+    .service2{
+        font-size: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+       
+    }
+    .col2service2{
+        line-height: 7px;
+        font-size: 7px;
+    }
+    .service3{
+        font-size: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+    }
+    .col3service3{
+        line-height: 7px;
+        font-size: 7px;
+    }
+    .row4{
+        width: 320px;
+        height: 300px;
+        border: 1px solid black;
+        background-color: black;
+    }
+    .maincontact{
+        width: 300;
+        height: 20px;
+        border: 1px solid black;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+    }
+     #contact{
+        font-size: 20px;
+        font-weight: bold;
+        color: #fff;
+    }
+    #fullname{
+        width: 250px;
+        height: 20px;
+       font-size: 7px; 
+       border: 1px solid #fff;
+       background-color: black;
+       margin: 30px 25px 10px 30px;
+       color: #fff;
+    }
+    #lastname{
+        width: 250px;
+        height: 20px;
+       font-size: 7px; 
+       border: 1px solid #fff;
+       background-color: black;
+       margin: 10px 25px 10px 30px;
+       color: #fff;
+    }
+    #emailaddress{
+        width: 250px;
+        height: 20px;
+       font-size: 7px; 
+       border: 1px solid #fff;
+       background-color: black;
+       margin: 10px 25px 10px 30px;
+       color: #fff;
+    }
+    #reason{
+        width: 250px;
+        height: 20px;
+       font-size: 7px; 
+       border: 1px solid #fff;
+       background-color: black;
+       margin: 10px 25px 10px 30px;
+       color: #fff;
+    }
+    button{
+        width: 40px;
+        height: 20px;
+        background-color: #fff;
+        color: black;
+        margin-left: 150px;
+        font-size: 10px;
+    }
+    ::placeholder{
+        color: #fff;
+    }
+}
